@@ -1,0 +1,6 @@
+@mixin elevationhover($top , $time){
+    transition: all $time;
+&:hover{
+top: $top;
+}
+}
